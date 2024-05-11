@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Dedeman_Market
+namespace TechnoModernMarket
 {
     internal class Program
     {
@@ -20,6 +20,7 @@ namespace Dedeman_Market
             double[] urunkdvli = new double[urunler.Length];
             int kalemadedi = 0;
             double kdvlitoplam = 0;
+            double kdvsiztoplam = 0;
             double toplam = 0;
             
 
@@ -98,6 +99,7 @@ namespace Dedeman_Market
             for (int i = 0; i < kalemadedi; i++)
             {
                 kdvlitoplam += urunkdvli[i];
+                kdvsiztoplam += urunkdvsiz[i];
             }
 
             Console.WriteLine("\n******Ödeme Adımına Hoşgeldiniz******");
@@ -111,11 +113,11 @@ namespace Dedeman_Market
             {
                 if (kartlar[i] == kartNo)
                 {
-                    Console.WriteLine("Toplam tutar: " + toplam + "TL" +"\tKdv'li toplam tutar: " + kdvlitoplam + " TL "+ "\tDeDeMan kart indirimi %5 = " + indirim + " Genel Toplam: " + indirim+ " TL ");
+                    Console.WriteLine("Toplam tutar: " + toplam + "TL" +"\tKdv'li toplam tutar: " + kdvlitoplam + " TL "+ "\tTechnoModern kart indirimi %5 = " + indirim + " Genel Toplam: " + indirim+ " TL ");
                 }
                 else
                 {
-                    Console.WriteLine("Toplam tutar: " + toplam + "TL" + "\tKdv'li toplam tutar: " + kdvlitoplam + "TL");
+                    Console.WriteLine("Toplam tutar: " + kdvsiztoplam + "TL" + "\tKdv'li toplam tutar: " + kdvlitoplam + "TL");
                 }
             }
             Console.WriteLine("******Tekrar Görüşmek Dileklerimizle İyi Günler Dileriz********");

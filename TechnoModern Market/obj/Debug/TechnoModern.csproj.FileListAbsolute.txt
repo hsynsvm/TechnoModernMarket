@@ -1,0 +1,7 @@
+C:\Users\ramse\Documents\GitHub\TechnoModernMarket\TechnoModern Market\bin\Debug\Dedeman Market.exe.config
+C:\Users\ramse\Documents\GitHub\TechnoModernMarket\TechnoModern Market\bin\Debug\Dedeman Market.exe
+C:\Users\ramse\Documents\GitHub\TechnoModernMarket\TechnoModern Market\bin\Debug\Dedeman Market.pdb
+C:\Users\ramse\Documents\GitHub\TechnoModernMarket\TechnoModern Market\obj\Debug\TechnoModern.csproj.AssemblyReference.cache
+C:\Users\ramse\Documents\GitHub\TechnoModernMarket\TechnoModern Market\obj\Debug\TechnoModern.csproj.CoreCompileInputs.cache
+C:\Users\ramse\Documents\GitHub\TechnoModernMarket\TechnoModern Market\obj\Debug\Dedeman Market.exe
+C:\Users\ramse\Documents\GitHub\TechnoModernMarket\TechnoModern Market\obj\Debug\Dedeman Market.pdb
